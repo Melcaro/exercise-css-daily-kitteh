@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.body {
+body {
   background: #6a973e;
   margin: 0;
 }
@@ -14,12 +14,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1%;
 }
 
 .main-title {
   color: #273717;
   font-weight: bold;
-  font-size: 5vh;
+  font-size: 3vw;
 }
 
 .menu-bar {
@@ -36,7 +37,7 @@
   display: flex;
   list-style-type: none;
   color: #273717;
-  font-size: 2vh;
+  font-size: 1vw;
   width: 100%;
   justify-content: center;
 }
@@ -47,7 +48,7 @@
 
 .content-container {
   width: 70%;
-  height: 50vh;
+  height: 55%;
   margin: 0 auto;
   background: #b5cf6c;
   display: flex;
@@ -71,15 +72,58 @@
 .kitteh-img img {
   width: 100%;
 }
+
+.kitteh-description {
+  flex: 1 1 50%;
+  margin-top: 2%;
+}
 .title-kitteh {
-  font-size: 3vh;
+  font-size: 1vw;
   font-weight: bold;
+  margin: 0;
+}
+
+.kitteh-list {
+  font-weight: bold;
+  font-size: 1vw;
 }
 
 .blah-container {
-  flex: 1 1 20%;
-  border: 1px solid black;
+  flex: 1 1 60%;
+  height: 100%;
   padding: 1%;
   margin-left: 1%;
   color: #455729;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-blah {
+  font-size: 2vw;
+  color: #273717;
+  margin-bottom: 2%;
+}
+
+footer {
+  width: 70%;
+  height: 3vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+}
+
+.footer-list {
+  flex: 1 1 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list li {
+  margin: 0 2%;
+  font-size: 1vw;
 }
